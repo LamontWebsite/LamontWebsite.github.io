@@ -18,7 +18,7 @@ HEADER
     max-height:250px;
 }
 
-.jumbotron{
+.Chicago_sunrise_1{
     text-align:center;
     margin-bottom:10px;
     height:500px;
@@ -46,6 +46,7 @@ MAIN CONTENT
 }
 
 article{
+    
     width:90%;
     margin:0 auto;
     padding:10px;
@@ -65,16 +66,77 @@ footer{
 /**********************************
 PAGE: _______
 ***********************************/
+.offscreen { 
+  position: absolute; 
+  top: -30em; 
+  left: -300em; 
+} 
 
+div#hmenu { 
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: #00035C; 
+   width: 100%; 
+   text-align: center; 
+} 
+
+div#hmenu ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#hmenu ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#hmenu ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #2089FF; 
+} 
+
+div#hmenu ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #2089FF; 
+} 
+
+div#hmenu ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #2089FF; 
+} 
+
+div#hmenu ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #00035C; 
+   background-color: #2089FF; 
+}
 
 
 /**********************************
 FONTS
 ***********************************/
-.portrait_name{
-    font-family: 'Audiowide', cursive;
+h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
 }
-
 /**********************************
 COLORS and BACKGROUNDS
 Color 1:
@@ -85,15 +147,15 @@ Color 1:
 ***********************************/
 
 article{
-    background:#eee;
+    background:#20BBFF;
 }
 
 footer{
-    background:#eee;
+    background:#20BBFF;
 }
 
-.jumbotron{
-  background: url('https://picjumbo.imgix.net/HNCK8910.jpg?q=40&w=1650&sharp=30') no-repeat center;
+.Chicago_sunrise_1{
+  background: url("https://upload.wikimedia.org/wikipedia/commons/8/82/Chicago_sunrise_1.jpg") no-repeat center;
   background-size: cover;
 }
 
