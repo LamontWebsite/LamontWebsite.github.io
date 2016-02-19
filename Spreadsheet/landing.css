@@ -13,9 +13,95 @@ NAVIGATION
 HEADER
 ***********************************/
 
-.portrait{
-    max-width:auto;
-    max-height:250px;
+
+/**********************************
+IMAGE GALLERY
+***********************************/
+.image_gallery {
+			width:90%;
+			margin:0 auto;
+		}
+
+/**********************************
+FOOTER
+***********************************/
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+@-webkit-keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn;
+}
+
+@-webkit-keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
 }
 
 .Chicago_sunrise_1{
@@ -26,29 +112,29 @@ HEADER
 }
 
 .portrait_name{
-    width:320px;
-    margin:0 auto;
-    padding:20px;
-    border-radius:20px;
+    width:370px;
+    margin: auto;
+    padding:90px;
+    border-radius:90px;
 }
 
 /**********************************
 MAIN CONTENT
 ***********************************/
 .thumbnail_space{
-    max-width:90%;
-    margin:0 auto;
+    max-width:95%;
+    margin:1 center;
 }
 
 .thumbnail_image{
-  max-height:200px;
+  max-height:246px;
   max-width:242px;
 }
 
 article{
     
     width:90%;
-    margin:0 auto;
+    margin:0 absolute;
     padding:10px;
     border-radius:10px;
     margin-bottom:10px;
@@ -60,7 +146,7 @@ FOOTER - Layout and Sizing
 footer{
     height:100px;
     text-align:center;
-    padding:20px;
+    padding:40px;
 }
 
 /**********************************
@@ -75,7 +161,7 @@ PAGE: _______
 div#hmenu { 
    margin: 0; 
    padding: .3em 0 .3em 0; 
-   background: #00035C; 
+   background: #5EE2FF; 
    width: 100%; 
    text-align: center; 
 } 
@@ -98,7 +184,7 @@ div#hmenu ul a:link{
    text-decoration: none; 
    font-weight: bold; 
    font-size: medium; 
-   color: #2089FF; 
+   color: #2089ff; 
 } 
 
 div#hmenu ul a:visited{ 
@@ -116,7 +202,7 @@ div#hmenu ul a:active{
    text-decoration: none; 
    font-weight: bold; 
    font-size: medium; 
-   color: #2089FF; 
+   color: #004A7F; 
 } 
 
 div#hmenu ul a:hover{ 
@@ -125,8 +211,8 @@ div#hmenu ul a:hover{
    text-decoration: none; 
    font-weight: bold; 
    font-size: medium; 
-   color: #00035C; 
-   background-color: #2089FF; 
+   color: #5EE2FF; 
+   background-color: #004A7F; 
 }
 
 
@@ -134,24 +220,24 @@ div#hmenu ul a:hover{
 FONTS
 ***********************************/
 h1 {
-    font-family: "Lato", sans-serif;
+    font-family: "century", sans-serif;
     font-weight: 300;
 }
 /**********************************
 COLORS and BACKGROUNDS
-Color 1:
-Color 1:
-Color 1:
-Color 1:
-Color 1:
+Color 1:#5EE2FF
+Color 1:#5EE2FF
+Color 1:#5EE2FF
+Color 1:#5EE2FF
+Color 1:#5EE2FF
 ***********************************/
 
 article{
-    background:#20BBFF;
+    background:#5EE2FF;
 }
 
 footer{
-    background:#20BBFF;
+    background:#5EE2FF;
 }
 
 .Chicago_sunrise_1{
