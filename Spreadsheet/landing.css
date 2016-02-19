@@ -63,7 +63,15 @@ FOOTER
     transform: none;
   }
 }
-
+.box {
+  background: #2db34a;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.box:hover {
+  background: #ff7b29;
+}
 
 .bounceIn {
   -webkit-animation-name: bounceIn;
